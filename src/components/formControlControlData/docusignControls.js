@@ -1,6 +1,6 @@
-﻿import {  formBuilderText, formBuilderHeading } from './formBuilderControlDefinition';
+﻿import {  docusignText, docusignHeading } from './docusignControlDefinition';
 
-export var formBuilderControls = [
+export var docusignControls = [
     // {
     //     sno: 1,
     //     order: 1,
@@ -10,7 +10,7 @@ export var formBuilderControls = [
     //     ctrlname: "Grid 12",
     //     label: "Grid 12",
     //     icon: "far fa-square",
-    //     content: formBuilderGrid1
+    //     content: docusignGrid1
     // },
     // {
     //     sno: 1,
@@ -21,7 +21,7 @@ export var formBuilderControls = [
     //     ctrlname: "Grid 6",
     //     label: "Grid 6",
     //     icon: "fas fa-th-large",
-    //     content: formBuilderGrid2
+    //     content: docusignGrid2
     // },
     // {
     //     sno: 1,
@@ -32,7 +32,7 @@ export var formBuilderControls = [
     //     ctrlname: "Grid 4",
     //     label: "Grid 4",
     //     icon: "fas fa-th",
-    //     content: formBuilderGrid3
+    //     content: docusignGrid3
     // },
     // {
     //     sno: 1,
@@ -43,7 +43,7 @@ export var formBuilderControls = [
     //     ctrlname: "Grid 3",
     //     label: "Grid 3",
     //     icon: "far fa-th",
-    //     content: formBuilderGrid4
+    //     content: docusignGrid4
     // },
     {
         sno: 6,
@@ -54,7 +54,7 @@ export var formBuilderControls = [
         ctrlname: "Heading",
         label: "Heading",
         icon: "fa fa-header",
-        content: formBuilderHeading
+        content: docusignHeading
     },
     {
         sno: 7,
@@ -65,7 +65,7 @@ export var formBuilderControls = [
         ctrlname: "Paragraph",
         label: "Paragraph",
         icon: "far fa-paragraph",
-        content: formBuilderText
+        content: docusignText
     },
 //     {
 //         sno: 8,
@@ -76,7 +76,7 @@ export var formBuilderControls = [
 //         ctrlname: "InputField",
 //         label: "Tex Box",
 //         icon: "fa fa-window-minimize",
-//         content: formBuilderInputField
+//         content: docusignInputField
 //     },
 //     {
 //         sno: 9,
@@ -87,7 +87,7 @@ export var formBuilderControls = [
 //         ctrlname: "DropDown",
 //         label: "Drop Down",
 //         icon: "fa fa-crosshairs",
-//         content: formBuilderDropDown
+//         content: docusignDropDown
 //     },
 //     {
 //         sno: 10,
@@ -98,7 +98,7 @@ export var formBuilderControls = [
 //         ctrlname: "Checkbox",
 //         label: "Check box",
 //         icon: "fa fa-check",
-//         content: formBuilderCheckbox
+//         content: docusignCheckbox
 //     },
 //     {
 //         sno: 11,
@@ -109,7 +109,7 @@ export var formBuilderControls = [
 //         ctrlname: "Button",
 //         label: "Button",
 //         icon: "fa fa-square-o",
-//         content: formBuilderButton
+//         content: docusignButton
 //     },
 //     {
 //         sno: 11,
@@ -120,7 +120,7 @@ export var formBuilderControls = [
 //         ctrlname: "Radio",
 //         label: "Radio",
 //         icon: "fa fa-stop-circle-o",
-//         content: formBuilderRadio
+//         content: docusignRadio
 //     },
 //     {
 //         sno: 12,
@@ -131,7 +131,7 @@ export var formBuilderControls = [
 //         ctrlname: "Calender",
 //         label: "Calender",
 //         icon: "fa fa-calendar",
-//         content: formBuilderCalendar
+//         content: docusignCalendar
 //     },
 //     {
 //         sno: 13,
@@ -142,7 +142,7 @@ export var formBuilderControls = [
 //         ctrlname: "Switch",
 //         label: "Switch",
 //         icon: "fa fa-toggle-on",
-//         content: formBuilderSwitch
+//         content: docusignSwitch
 //     },
 //     {
 //         sno: 14,
@@ -153,7 +153,7 @@ export var formBuilderControls = [
 //         ctrlname: "Upload",
 //         label: "Upload",
 //         icon: "fa fa-cloud-upload",
-//         content: formBuilderUpload
+//         content: docusignUpload
 //     },
 //    {
 //         sno: 16,
@@ -164,7 +164,7 @@ export var formBuilderControls = [
 //         ctrlname: "Table",
 //         label: "Table",
 //         icon: "fa fa-table",
-//         content: FormBuilderTable
+//         content: docusignTable
 //     },
 //     {
 //         sno: 17,
@@ -175,7 +175,7 @@ export var formBuilderControls = [
 //         ctrlname: "Divider",
 //         label: "Divider",
 //         icon: "fa fa-table",
-//         content: formBuilderDivider
+//         content: docusignDivider
 //     }
 
     

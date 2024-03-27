@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { formBuilderControls } from './components/formControlControlData/formbuilderControls';
+import { docusignControls } from './components/formControlControlData/docusignControls';
 import Pdfviewer from './pdfviewer'
 
 class Home extends Component {
@@ -14,7 +14,7 @@ class Home extends Component {
   }
 
   componentWillMount() {
-    this.state.controlsList = formBuilderControls;
+    this.state.controlsList = docusignControls;
     console.log('componentWillMount')
 
   }
@@ -159,7 +159,7 @@ class Home extends Component {
             <div className="modal-dialog">
               <div className="modal-content">
                 <div className="modal-header">
-                  <h5 className="modal-title" id="exampleModalLabel">Form Builder</h5>
+                  <h5 className="modal-title" id="exampleModalLabel">Docusign</h5>
                   <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div className="modal-body" id="modal-body">

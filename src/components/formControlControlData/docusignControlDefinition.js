@@ -12,7 +12,7 @@
 // import { Divider } from 'primereact/divider';
 
 
-// function formBuilderGrid1(props) {
+// function docusignGrid1(props) {
 
 //     return (
 //             <div  className="row p-2 mx-0 my-2"><div className="col-md-12 p-3 border"></div></div>
@@ -20,7 +20,7 @@
   
 // }
 
-// function formBuilderGrid2 (props) {
+// function docusignGrid2 (props) {
 
 //     return (
 //             <div  className="row p-2 mx-0 my-2"><div className="col-md-6 p-3 border"></div><div className="col-md-6 p-3 border"></div></div>
@@ -28,7 +28,7 @@
     
 // }
 
-// function formBuilderGrid3 (props) {
+// function docusignGrid3 (props) {
 
 //      return (
 //             <div  className="row p-2 mx-0 my-2"><div className="col-md-4 p-3 border"></div><div className="col-md-4 p-3 border"></div><div className="col-md-4 p-3 border"></div></div>
@@ -36,7 +36,7 @@
    
 // }
 
-// function formBuilderGrid4(props) {
+// function docusignGrid4(props) {
 
 //    return (
 //             <div  className="row p-2 mx-0 my-2"><div className="col-md-3 p-3 border"></div><div className="col-md-3 p-3 border"></div><div className="col-md-3 p-3 border"></div><div className="col-md-3 p-3 border"></div></div>
@@ -44,7 +44,7 @@
     
 // }
 
-function formBuilderText (props) {
+function docusignText (props) {
 
      return (
             <p >This Is A Paragraph</p>
@@ -52,7 +52,7 @@ function formBuilderText (props) {
     
 }
 
-function formBuilderHeading (props) {
+function docusignHeading (props) {
 
      return (
             <h1>HEADING</h1>
@@ -60,7 +60,7 @@ function formBuilderHeading (props) {
    
 }
 
-// function formBuilderInputField (props) {
+// function docusignInputField (props) {
 
 //     return (
 //             <div className="field" style={{ pointerEvents: "none" }}>
@@ -72,7 +72,7 @@ function formBuilderHeading (props) {
    
 // }
 
-// function formBuilderDropDown(props) {
+// function docusignDropDown(props) {
 
 //     return (
 //             <div className="field" style={{ pointerEvents: "none" }}>
@@ -83,7 +83,7 @@ function formBuilderHeading (props) {
   
 // }
 
-// function formBuilderCheckbox (props) {
+// function docusignCheckbox (props) {
 
 //     return (
 //             <div className="field-checkbox" style={{ pointerEvents: "none" }}>
@@ -94,7 +94,7 @@ function formBuilderHeading (props) {
     
 // }
 
-// function formBuilderButton (props) {
+// function docusignButton (props) {
 
 //      return (
 //             <Button label="Submit" aria-label="Submit"   />
@@ -103,7 +103,7 @@ function formBuilderHeading (props) {
    
 // }
 
-// function formBuilderRadio (props) {
+// function docusignRadio (props) {
 
 //   return (
 //             <div className="field-radiobutton" style={{ pointerEvents: "none" }}>
@@ -114,7 +114,7 @@ function formBuilderHeading (props) {
     
 // }
 
-// function formBuilderCalendar (props) {
+// function docusignCalendar (props) {
 
 //      return (
 //             <div className="field" style={{ pointerEvents: "none" }}>
@@ -125,7 +125,7 @@ function formBuilderHeading (props) {
     
 // }
 
-// function formBuilderSwitch (props) {
+// function docusignSwitch (props) {
 
 //      return (
 //             <div className="field-checkbox" style={{ pointerEvents: "none" }}>
@@ -136,7 +136,7 @@ function formBuilderHeading (props) {
     
 // }
 
-// function formBuilderUpload (props) {
+// function docusignUpload (props) {
 
 //      return (
 //             <div className="field" style={{ pointerEvents: "none" }}>
@@ -149,7 +149,7 @@ function formBuilderHeading (props) {
 
 
 
-// function FormBuilderTable (props) {
+// function docusignTable (props) {
 
 //     const [products, setProducts] = useState([
 //         { "id": "1000", "code": "f230fh0g3", "name": "Bamboo Watch", "description": "Product Description", "image": "bamboo-watch.jpg", "price": 65, "category": "Accessories", "quantity": 24, "inventoryStatus": "INSTOCK", "rating": 5 },
@@ -177,13 +177,13 @@ function formBuilderHeading (props) {
    
 // }
 
-// function formBuilderDivider(props){
+// function docusignDivider(props){
 
 //     return (
 //             <Divider type="solid"  />
 //         );
     
 // }
-export {  formBuilderText, formBuilderHeading };
+export {  docusignText, docusignHeading };
 
-// export { formBuilderGrid1, formBuilderGrid2, formBuilderGrid3, formBuilderGrid4, formBuilderText, formBuilderHeading, formBuilderInputField, formBuilderDropDown, formBuilderCheckbox, formBuilderButton, formBuilderRadio, formBuilderCalendar, formBuilderSwitch, formBuilderUpload, FormBuilderTable, formBuilderDivider };
+// export { docusignGrid1, docusignGrid2, docusignGrid3, docusignGrid4, docusignText, docusignHeading, docusignInputField, docusignDropDown, docusignCheckbox, docusignButton, docusignRadio, docusignCalendar, docusignSwitch, docusignUpload, docusignTable, docusignDivider };
